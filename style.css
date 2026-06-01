@@ -1,1 +1,14 @@
 
+box {
+width: 200px;
+height: 100px;
+background-color: lightblue;
+
+/* Round only left side */
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+
+/* Round only right side */
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
